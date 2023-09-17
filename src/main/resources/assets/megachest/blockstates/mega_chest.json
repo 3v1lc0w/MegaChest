@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=down,open=false": {
+      "y": 180,
+      "model": "megachest:block/mega_chest"
+    },
+    "facing=down,open=true": {
+      "y": 180,
+      "model": "megachest:block/mega_chest_open"
+    },
+    "facing=east,open=false": {
+      "y": 180,
+      "model": "megachest:block/mega_chest"
+    },
+    "facing=east,open=true": {
+      "y": 180,
+      "model": "megachest:block/mega_chest_open"
+    },
+    "facing=north,open=false": {
+      "y": 180,
+      "model": "megachest:block/mega_chest"
+    },
+    "facing=north,open=true": {
+      "y": 180,
+      "model": "megachest:block/mega_chest_open"
+    },
+    "facing=south,open=false": {
+      "y": 180,
+      "model": "megachest:block/mega_chest"
+    },
+    "facing=south,open=true": {
+      "y": 180,
+      "model": "megachest:block/mega_chest_open"
+    },
+    "facing=up,open=false": {
+      "y": 180,
+      "model": "megachest:block/mega_chest"
+    },
+    "facing=up,open=true": {
+      "y": 180,
+      "model": "megachest:block/mega_chest_open"
+    },
+    "facing=west,open=false": {
+      "y": 180,
+      "model": "megachest:block/mega_chest"
+    },
+    "facing=west,open=true": {
+      "y": 180,
+      "model": "megachest:block/mega_chest_open"
+    }
+  }
+}
