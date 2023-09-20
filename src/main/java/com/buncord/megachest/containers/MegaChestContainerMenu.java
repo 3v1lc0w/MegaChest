@@ -120,7 +120,8 @@ public class MegaChestContainerMenu extends AbstractContainerMenu {
 
       if (search == null || search.isEmpty()) {
         activeSlots.add(slot);
-      } else {
+      } else if (itemStack.getItem() != Items.AIR) {
+
         String lowerCaseSearch = search.toLowerCase(Locale.ROOT);
 
         boolean matches = false;
