@@ -204,10 +204,10 @@ public class MegaChestContainerMenu extends AbstractContainerMenu {
     if (slot.hasItem()) {
       ItemStack itemstack1 = slot.getItem();
       itemstack = itemstack1.copy();
-      if (slotID < CONTAINER_ROWS * 9) {
+      if (slotID < MegaChestBlockEntity.SIZE) {
         if (!this.moveItemStackTo(
             itemstack1,
-            CONTAINER_ROWS * 9,
+            MegaChestBlockEntity.SIZE,
             this.slots.size(),
             true
         )) {
@@ -216,7 +216,7 @@ public class MegaChestContainerMenu extends AbstractContainerMenu {
       } else if (!this.moveItemStackTo(
           itemstack1,
           0,
-          CONTAINER_ROWS * 9,
+          MegaChestBlockEntity.SIZE,
           false
       )) {
         return ItemStack.EMPTY;
