@@ -1,5 +1,6 @@
 package com.buncord.megachest.block_entities;
 
+import com.buncord.megachest.ContainerHelper;
 import com.buncord.megachest.blocks.MegaChestBlock;
 import com.buncord.megachest.containers.MegaChestContainerMenu;
 import net.minecraft.core.BlockPos;
@@ -12,7 +13,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.Container;
-import net.minecraft.world.ContainerHelper;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;

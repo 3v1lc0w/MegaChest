@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.3'
+version = '1.4'
 group = 'com.buncord.megachest' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'megachest'
 
@@ -208,7 +208,7 @@ jar {
         attributes([
                 "Specification-Title"     : "megachest",
                 "Specification-Vendor"    : "EvilCow",
-                "Specification-Version"   : "1.3", // We are version 1 of ourselves
+                "Specification-Version"   : "1.4", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "EvilCow",

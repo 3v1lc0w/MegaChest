@@ -1,6 +1,6 @@
 package com.buncord.megachest.containers;
 
-import com.buncord.megachest.BlockEntityHelper;
+import com.buncord.megachest.ContainerHelper;
 import com.buncord.megachest.block_entities.MegaChestBlockEntity;
 import com.buncord.megachest.mixin.SlotAccessor;
 import java.util.ArrayList;
@@ -251,7 +251,7 @@ public class MegaChestContainerMenu extends AbstractContainerMenu {
       return null;
     }
 
-    return DistExecutor.unsafeCallWhenOn(Dist.CLIENT, () -> () -> BlockEntityHelper.get(type, Minecraft.getInstance().level, buf.readBlockPos()).orElse(null));
+    return DistExecutor.unsafeCallWhenOn(Dist.CLIENT, () -> () -> ContainerHelper.get(type, Minecraft.getInstance().level, buf.readBlockPos()).orElse(null));
   }
 
   static class CustomSlot extends Slot {
